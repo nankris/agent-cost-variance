@@ -1,0 +1,20 @@
+{
+  "n_calls": 40,
+  "n_pairs": 20,
+  "ratio": 1.110843770665157,
+  "ratio_ci": [
+    1.0125888882465168,
+    1.2580454271254005
+  ],
+  "ratio_of_means": 1.0651351712899342,
+  "verdict": "STILL INCONCLUSIVE",
+  "r2": 0.9998888088328515,
+  "r2_ci": [
+    0.9997708514509139,
+    0.9999999593268345
+  ],
+  "r2_undefined_bootstraps": 0,
+  "secondary_verdict": "PROVEN",
+  "total_cost": 0.2717024,
+  "passed": 40
+}
