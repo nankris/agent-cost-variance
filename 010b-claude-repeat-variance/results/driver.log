@@ -1,0 +1,12 @@
+start 1792007002 jobs=10 P=2
+default__SUITE14__r1: pass=True sub=(14, 14) tok=99001 cc=23415 cr=73308 out=2270 cost=$0.2474136 turns=4 tools={'Bash': 3} wall=27s 
+default__SUITE14__r2: pass=True sub=(14, 14) tok=99487 cc=23606 cr=73516 out=2357 cost=$0.2507232 turns=4 tools={'Bash': 3} wall=41s 
+default__SUITE14__r3: pass=True sub=(14, 14) tok=98400 cc=23092 cr=73175 out=2125 cost=$0.241903 turns=4 tools={'Bash': 3} wall=26s 
+default__SUITE14__r4: pass=True sub=(14, 14) tok=98552 cc=23179 cr=73136 out=2229 cost=$0.2446712 turns=4 tools={'Bash': 3} wall=29s 
+default__SUITE14__r5: pass=True sub=(14, 14) tok=98451 cc=23148 cr=73346 out=1949 cost=$0.23886520000000003 turns=4 tools={'Bash': 3} wall=29s 
+small_N02__N02_duration__r1: pass=True sub=None tok=85207 cc=14506 cr=70105 out=588 cost=$0.141861 turns=4 tools={'Bash': 3} wall=15s 
+small_N02__N02_duration__r2: pass=True sub=None tok=85131 cc=14506 cr=70105 out=512 cost=$0.140341 turns=4 tools={'Bash': 3} wall=15s 
+small_N02__N02_duration__r3: pass=True sub=None tok=85220 cc=14532 cr=70114 out=566 cost=$0.1416308 turns=4 tools={'Bash': 3} wall=15s 
+small_N02__N02_duration__r4: pass=True sub=None tok=85115 cc=14518 cr=70089 out=500 cost=$0.14019379999999998 turns=4 tools={'Bash': 3} wall=14s 
+small_N02__N02_duration__r5: pass=True sub=None tok=85143 cc=14510 cr=70122 out=503 cost=$0.1401964 turns=4 tools={'Bash': 3} wall=15s 
+done 1792007124
