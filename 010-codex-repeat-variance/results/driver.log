@@ -1,0 +1,8 @@
+start 1791989632 jobs=5 P=2
+{"cond": "default", "task": "SUITE14", "rep": 2, "passed": 1, "subtests_passed": 14, "total_tokens": 102346, "cached_input_tokens": 79872, "est_cost_usd": 0.06414, "model_calls": 4, "compactions": 0, "wall_s": 45.3, "limit_error": "", "retries": 0, "rl_primary_used_pct": 54.0}
+{"cond": "default", "task": "SUITE14", "rep": 1, "passed": 1, "subtests_passed": 14, "total_tokens": 107411, "cached_input_tokens": 86528, "est_cost_usd": 0.06011, "model_calls": 4, "compactions": 0, "wall_s": 49.7, "limit_error": "", "retries": 0, "rl_primary_used_pct": 54.0}
+{"cond": "default", "task": "SUITE14", "rep": 3, "passed": 1, "subtests_passed": 14, "total_tokens": 129628, "cached_input_tokens": 107520, "est_cost_usd": 0.06622, "model_calls": 5, "compactions": 0, "wall_s": 71.4, "limit_error": "", "retries": 0, "rl_primary_used_pct": 56.0}
+errors: ['{"type": "error", "message": "Reconnecting... 2/5 (exceeded retry limit, last status: 429 Too Many Requests)"}']
+{"cond": "default", "task": "SUITE14", "rep": 4, "passed": 1, "subtests_passed": 14, "total_tokens": 94920, "cached_input_tokens": 62080, "est_cost_usd": 0.08212, "model_calls": 4, "compactions": 0, "wall_s": 108.5, "limit_error": "", "retries": 1, "rl_primary_used_pct": 57.0}
+{"cond": "default", "task": "SUITE14", "rep": 5, "passed": 1, "subtests_passed": 14, "total_tokens": 120365, "cached_input_tokens": 86016, "est_cost_usd": 0.08628, "model_calls": 5, "compactions": 0, "wall_s": 44.6, "limit_error": "", "retries": 0, "rl_primary_used_pct": 57.0}
+done 1791989797

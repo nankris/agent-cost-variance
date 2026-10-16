@@ -1,0 +1,7 @@
+start 1791990144 jobs=5 P=2
+{"cond": "small_N02", "task": "N02_duration", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 85545, "cached_input_tokens": 60160, "est_cost_usd": 0.05998, "model_calls": 4, "compactions": 0, "wall_s": 61.8, "limit_error": "", "retries": 0, "rl_primary_used_pct": 61.0}
+{"cond": "small_N02", "task": "N02_duration", "rep": 2, "passed": 1, "subtests_passed": "", "total_tokens": 90156, "cached_input_tokens": 69504, "est_cost_usd": 0.05152, "model_calls": 4, "compactions": 0, "wall_s": 66.3, "limit_error": "", "retries": 0, "rl_primary_used_pct": 62.0}
+{"cond": "small_N02", "task": "N02_duration", "rep": 3, "passed": 1, "subtests_passed": "", "total_tokens": 75126, "cached_input_tokens": 65920, "est_cost_usd": 0.02782, "model_calls": 4, "compactions": 0, "wall_s": 71.9, "limit_error": "", "retries": 0, "rl_primary_used_pct": 62.0}
+{"cond": "small_N02", "task": "N02_duration", "rep": 4, "passed": 1, "subtests_passed": "", "total_tokens": 75453, "cached_input_tokens": 66048, "est_cost_usd": 0.02815, "model_calls": 4, "compactions": 0, "wall_s": 74.5, "limit_error": "", "retries": 0, "rl_primary_used_pct": 62.0}
+{"cond": "small_N02", "task": "N02_duration", "rep": 5, "passed": 1, "subtests_passed": "", "total_tokens": 80314, "cached_input_tokens": 69376, "est_cost_usd": 0.03152, "model_calls": 4, "compactions": 0, "wall_s": 61.9, "limit_error": "", "retries": 0, "rl_primary_used_pct": 63.0}
+done 1791990340
