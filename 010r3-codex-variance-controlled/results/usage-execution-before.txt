@@ -1,0 +1,5 @@
+2026-10-16 execution preflight: source /workspace/tools/setup.sh; colab usage
+Current balance: 174.70 compute units
+Usage rate: 3.08/hr
+Active assignments: 2
+Transcribed from captured tool output. No sessions started by this experiment.

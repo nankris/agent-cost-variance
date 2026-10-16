@@ -1,0 +1,46 @@
+{
+  "n": 4,
+  "complete": false,
+  "timing_verdict": "PENDING (execution in progress)",
+  "cache_verdict": "PENDING (execution in progress)",
+  "gpu": "none",
+  "CU_used": 0,
+  "short": {
+    "n": 2,
+    "mean_cost": 0.0069228,
+    "mean_cost_CI95": [
+      0.0069228,
+      0.0069228
+    ],
+    "mean_cache_share": 0.8581005586592179,
+    "log_cost_SD": 0.0,
+    "gap_min_s": 0.0027785301208496094,
+    "gap_max_s": 0.002839803695678711
+  },
+  "spaced": {
+    "n": 2,
+    "mean_cost": 0.0069228,
+    "mean_cost_CI95": [
+      0.0069228,
+      0.0069228
+    ],
+    "mean_cache_share": 0.8581005586592179,
+    "log_cost_SD": 0.0,
+    "gap_min_s": 900.0001418590546,
+    "gap_max_s": 900.0001728534698
+  },
+  "ratio": 1.0,
+  "ratio_CI95": [
+    1.0,
+    1.0
+  ],
+  "ratio_CI90": [
+    1.0,
+    1.0
+  ],
+  "R2": NaN,
+  "undefined_bootstrap_replicates": 50000,
+  "cost_max_min": 1.0,
+  "cost_index_total": 0.041618,
+  "overall_verdict": "PENDING (execution in progress)"
+}

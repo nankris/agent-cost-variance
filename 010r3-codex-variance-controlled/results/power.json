@@ -1,0 +1,18 @@
+{
+  "12/12,sd=0.08": {
+    "SE": 0.032659863237109045,
+    "equivalence_power_approx": 0.8416411893285669,
+    "superiority_power_approx": 0.8310453789357717
+  },
+  "12/12,sd=0.22": {
+    "SE": 0.08981462390204986,
+    "equivalence_power_approx": 0,
+    "superiority_power_approx": 0.18564500962124092
+  },
+  "R2=0.8": {
+    "power_approx": 0.7312651110036075
+  },
+  "R2=0.95": {
+    "power_approx": 0.9999659992666758
+  }
+}
