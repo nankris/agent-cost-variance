@@ -1,0 +1,34 @@
+{
+  "1": {
+    "verdict": "STILL INCONCLUSIVE",
+    "n": 4,
+    "complete": false,
+    "cache_variance_reduction": 0.8560791158547463,
+    "cache_variance_reduction_ci": [
+      0.6551356479340054,
+      0.999719975372417
+    ],
+    "cost_spread": 1.304322286945029
+  },
+  "2": {
+    "verdict": "STILL INCONCLUSIVE",
+    "n": 16,
+    "complete": true,
+    "cost_ratio": 1.127022966558727,
+    "cost_ratio_ci": [
+      0.9153339467938104,
+      1.3820462444660213
+    ],
+    "cache_difference": -0.018825783179132305,
+    "cache_difference_ci": [
+      -0.07097659491653649,
+      0.037596569234940404
+    ],
+    "cache_variance_reduction": 0.7138812992415949,
+    "cache_variance_reduction_ci": [
+      0.3787381157642637,
+      0.9021641072909433
+    ],
+    "cost_spread": 2.0674944523399907
+  }
+}

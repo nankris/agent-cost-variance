@@ -1,0 +1,17 @@
+{
+  "experiment_gpu": "none",
+  "experiment_cu": 0,
+  "sessions_created": [],
+  "before": {
+    "utc": "2026-10-15T06:49:08Z",
+    "balance_cu": 178.36,
+    "rate_cu_per_hour": 0,
+    "active_assignments": 0
+  },
+  "note": "Account balance changes are not attributable to this experiment.",
+  "after": {
+    "balance_cu": 178.36,
+    "rate_cu_per_hour": 3.08,
+    "active_assignments": 2
+  }
+}
