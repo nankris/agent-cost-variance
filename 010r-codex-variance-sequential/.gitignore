@@ -1,0 +1,8 @@
+__pycache__/
+work/
+additional_attempt/
+results/*.log
+results/r*.jsonl
+results/colab*.txt
+
+!results/runs.jsonl
