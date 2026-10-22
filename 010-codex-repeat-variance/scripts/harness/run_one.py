@@ -29,19 +29,23 @@ FIELDS = ["exp", "cond", "task", "rep", "start_epoch", "wall_s", "exit_code", "t
 
 
 def sha(path):
+    """Compute the SHA-256 hash of a file."""
     return hashlib.sha256(open(path, "rb").read()).hexdigest()
 
 
 def test_hashes(root):
+    """Find all test.js files in root and return a dict mapping their paths to their SHA-256 hashes."""
     return {p: sha(p) for p in glob.glob(os.path.join(root, "**", "test.js"), recursive=True)}
 
 
 def find_rollout(thread_id):
+    """Find the most recent rollout jsonl file for a given thread_id."""
     hits = glob.glob(os.path.join(SESS_ROOT, "**", f"*{thread_id}*.jsonl"), recursive=True)
     return max(hits, key=os.path.getmtime) if hits else None
 
 
 def rollout_stats(path, since_line=0):
+    """Parse a rollout jsonl file and compute statistics like model calls, tool calls, and tokens used."""
     s = dict(model_calls=0, tool_calls=0, compactions=0, peak_context_tokens=0, model="", effort="",
              rl_primary_used_pct="", rl_secondary_used_pct="", _tot_before=None, _tot_after=None)
     if not path:
@@ -103,6 +107,7 @@ def subtests(root):
 
 
 def main():
+    """Main entry point for running one task on a fixture and recording metrics."""
     ap = argparse.ArgumentParser()
     ap.add_argument("--exp", required=True)
     ap.add_argument("--cond", required=True)
