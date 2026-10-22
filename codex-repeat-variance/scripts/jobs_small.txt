@@ -1,0 +1,5 @@
+--exp . --cond small_N02 --task scripts/harness/fixtures/N02_duration --rep 1 --timeout 600
+--exp . --cond small_N02 --task scripts/harness/fixtures/N02_duration --rep 2 --timeout 600
+--exp . --cond small_N02 --task scripts/harness/fixtures/N02_duration --rep 3 --timeout 600
+--exp . --cond small_N02 --task scripts/harness/fixtures/N02_duration --rep 4 --timeout 600
+--exp . --cond small_N02 --task scripts/harness/fixtures/N02_duration --rep 5 --timeout 600

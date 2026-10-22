@@ -1,0 +1,10 @@
+--exp . --cond default --task ../codex-repeat-variance/scripts/harness/fixtures/SUITE14 --rep 1 --timeout 1200 --check 'node run_all.js' --prompt "$(cat scripts/prompt.txt)"
+--exp . --cond default --task ../codex-repeat-variance/scripts/harness/fixtures/SUITE14 --rep 2 --timeout 1200 --check 'node run_all.js' --prompt "$(cat scripts/prompt.txt)"
+--exp . --cond default --task ../codex-repeat-variance/scripts/harness/fixtures/SUITE14 --rep 3 --timeout 1200 --check 'node run_all.js' --prompt "$(cat scripts/prompt.txt)"
+--exp . --cond default --task ../codex-repeat-variance/scripts/harness/fixtures/SUITE14 --rep 4 --timeout 1200 --check 'node run_all.js' --prompt "$(cat scripts/prompt.txt)"
+--exp . --cond default --task ../codex-repeat-variance/scripts/harness/fixtures/SUITE14 --rep 5 --timeout 1200 --check 'node run_all.js' --prompt "$(cat scripts/prompt.txt)"
+--exp . --cond small_N02 --task ../codex-repeat-variance/scripts/harness/fixtures/N02_duration --rep 1 --timeout 900
+--exp . --cond small_N02 --task ../codex-repeat-variance/scripts/harness/fixtures/N02_duration --rep 2 --timeout 900
+--exp . --cond small_N02 --task ../codex-repeat-variance/scripts/harness/fixtures/N02_duration --rep 3 --timeout 900
+--exp . --cond small_N02 --task ../codex-repeat-variance/scripts/harness/fixtures/N02_duration --rep 4 --timeout 900
+--exp . --cond small_N02 --task ../codex-repeat-variance/scripts/harness/fixtures/N02_duration --rep 5 --timeout 900
